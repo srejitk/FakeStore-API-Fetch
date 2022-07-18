@@ -1,0 +1,36 @@
+@import "./utils/utiltites.css";
+
+:root {
+  --PRIMARY: #3b82f6;
+  --PRIMARY_HOVER: #0369a1;
+  --TEXT: #18181b;
+  --ACCENT: #fde68a;
+  --BG: #f1f5f9;
+  --BG_LIGHT: #f8fafc;
+  --BORDER: 2px solid #64748b;
+}
+
+.App {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 2rem 1rem;
+  position: sticky;
+  background-color: var(--PRIMARY);
+  color: var(--BG_LIGHT);
+}
+
+.card_wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
